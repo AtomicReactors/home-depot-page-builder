@@ -45,7 +45,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`/api/p/${dewaltDrill}`);
+        const response = await axios.get(`/api/p/${ryobiDrill}`);
         setCurrentProduct(response.data[0]);
       } catch (error) {
         console.error("Error fetching product page", error);
