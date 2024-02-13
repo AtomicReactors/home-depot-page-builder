@@ -1,10 +1,10 @@
 #qaNavCont {
     display: flex;
-    width: 97%;
+    width: 99%;
     height: 50px;
     background-color: WHITE;
-    border: 1px solid grey;
-    padding: 10px;
+    /* border: 1px solid grey; */
+    padding: px;
     margin-left: 10px;
 }
 #qaNavSlim {

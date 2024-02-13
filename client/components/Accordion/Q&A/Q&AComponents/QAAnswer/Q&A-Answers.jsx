@@ -25,7 +25,7 @@ const QAAnswer = ({ currentQuestion }) => {
                   <div className="qaAnswerMiddleTopBottom">
                     <div className="qaAnswerMiddleTopBottomLeft">by</div>
                     <div className="qaAnswerMiddleTopBottomMiddle">{currentQuestion.response_user_name}</div>
-                    <div className="qaAnswerMiddleTopBottomRight">| {currentQuestion.response_date}</div>
+                    <div className="qaAnswerMiddleTopBottomRight">| {currentQuestion.response_date.slice(0, 10)}</div>
                   </div>
                 </div>
                 <div className="qaAnswerMiddleBottom"></div>

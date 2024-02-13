@@ -34,10 +34,12 @@
     height: 20px;
     display: flex;
     background-color: white;
+    font-weight: bold;
 }
 .qaQuestionLeftTopQuestion {
     display: block;
-    width: 800px;
+    flex-wrap: flex;
+    width: 950px;
     height: 20px;
     background-color: white;
     color: #333;
@@ -45,7 +47,7 @@
 }
 .qaQuestionLeftBottom {
     display: block;
-    width: 300px;
+    width: 140px;
     height: 20px;
     background-color: white;
     
@@ -57,7 +59,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    margin-top: 10px;
+    margin-top: 00px;
     font: 14px '';
     background-color: white;
     margin-left: 5px

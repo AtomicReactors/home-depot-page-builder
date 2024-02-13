@@ -25,7 +25,6 @@ const QandAQuestions = ({ questionDB }) => {
 
   const showQuestions = () => {
     console.log("Show Questions questionDB", questionDB);
- 
   }
 console.log('questionseffect', questionDB)
 return (
